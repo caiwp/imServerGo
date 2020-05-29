@@ -1,0 +1,15 @@
+[app]
+env = "local"
+
+[client]
+addr = "127.0.0.1:50055"
+
+[log]
+tag = "local"
+addr = "192.168.97.55:6208"
+level = -1 # -1 DEBUG 0 INFO
+
+[keys]
+tcp0x888 = "tcp0x888"
+udp0x10e = "udp0x10e"
+udp0x10f = "udp0x10f"
